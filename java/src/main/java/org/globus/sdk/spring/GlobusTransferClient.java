@@ -6,6 +6,9 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.client.RestClient;
 
 import java.net.URI;
+import org.springframework.util.StringUtils;
+import org.springframework.web.client.RestClient;
+
 import java.util.Objects;
 
 /**
@@ -233,4 +236,5 @@ public class GlobusTransferClient {
             @JsonProperty("notify_message") String notifyMessage
     ) {
     }
+
 }
